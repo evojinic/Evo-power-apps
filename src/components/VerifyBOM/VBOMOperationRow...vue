@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('tr',{staticClass:"OperationRow",style:(_vm.hasError)},[_c('td',{on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.op.pn)+" ")]),_c('td',{on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.op.op)+" ")]),_c('td',{on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.op.wc)+" ")]),_c('td',{class:{'txt-err':_vm.hasPpMhError},on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.op._mh)+" ")]),_c('td',{domProps:{"innerHTML":_vm._s(_vm.wcNotes)},on:{"click":_vm.copyTD}}),(_vm.op.from)?_c('td',{staticClass:"txt-err",on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.op.from.join(', '))+" ")]):_c('td',[_vm._v(" - ")]),(_vm.op.exp)?_c('td',{staticClass:"txt-err"},[_vm._v(" "+_vm._s(_vm.op.exp.join(', '))+" ")]):_c('td',[_vm._v(" - ")])])
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

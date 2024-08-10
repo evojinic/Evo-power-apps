@@ -1,0 +1,6 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return (_vm.loading)?_c('td',{staticClass:"txt-right"},[_c('ga-spinner')],1):(_vm.error)?_c('td',{staticClass:"txt-right"},[_vm._m(0)]):(_vm.errors)?_c('td',{staticClass:"txt-right"},[(_vm.errors)?_c('div',{staticStyle:{"font-size":"0.8em"}},[_c('span',{staticStyle:{"color":"red","font-weight":"bold"}},[_vm._v("Missing Weight")]),_c('span',{domProps:{"innerHTML":_vm._s(_vm.errors)}})]):_vm._e()]):(_vm.weight)?_c('td',{staticClass:"txt-right"},[(_vm.showEach)?_c('div',{staticClass:"each"},[_vm._v(_vm._s(_vm.unitWeight))]):_vm._e(),(_vm.showEach && _vm.dim1)?_c('div',{staticClass:"packDims"},[_vm._v(_vm._s(_vm.dim1))]):_vm._e(),(_vm.showEach && _vm.dim2)?_c('div',{staticClass:"packDims"},[_vm._v(_vm._s(_vm.dim2))]):_vm._e(),_c('div',{staticClass:"net"},[_vm._v(_vm._s(_vm.netPrice))])]):_c('td')
+}
+var staticRenderFns = [function (){var _vm=this,_c=_vm._self._c;return _c('div',{staticStyle:{"font-size":"0.9em"}},[_vm._v(" weight"),_c('br'),_vm._v("look up"),_c('br'),_vm._v("failed ")])
+}]
+
+export { render, staticRenderFns }

@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('tr',{staticClass:"PartRow",style:(_vm.hasError)},[_c('td',{on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.part.pn)+" ")]),_c('td',{class:{'txt-err':_vm.hasDescriptionError},on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.part.desc)+" ")]),_c('td',{class:{'txt-err':_vm.hasUMError},on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.part.um || '')+" ")]),_c('td',{class:{'txt-err':_vm.hasProductCodeError},on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.part.productCode || '')+" ")]),_c('td',{class:{'txt-err':_vm.hasPlannerCodeError},on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.part.planner || '')+" ")]),_c('td',{class:{'txt-err':_vm.hasFamilyCodeError},on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.part.family || '')+" ")]),(_vm.part.from)?_c('td',{staticClass:"txt-err",on:{"click":_vm.copyTD}},[_vm._v(" "+_vm._s(_vm.part.from.join(', '))+" ")]):_c('td',[_vm._v(" - ")]),(_vm.part.exp)?_c('td',{staticClass:"txt-err"},[_vm._v(" "+_vm._s(_vm.part.exp.join(', '))+" ")]):_c('td',[_vm._v(" - ")])])
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

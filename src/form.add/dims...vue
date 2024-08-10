@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',{staticClass:"selection_spec"},[_c('div',{staticClass:"f-card"},[(_vm.dims && _vm.dims.flangeOD )?_c('div',[_vm._v(" Outer Dia = "),_c('strong',[_vm._v(_vm._s(_vm.dims.flangeOD)+"\"")]),_c('br'),_vm._v("Holes@bcd = "),_c('strong',[_vm._v(_vm._s(_vm.dims.hd)+"\"")]),_vm._v(" x "),_c('strong',[_vm._v(_vm._s(_vm.dims.holeQty))]),_vm._v(" @ "),_c('strong',[_vm._v(_vm._s(_vm.dims.bcd)+"\"")]),_c('br'),_vm._v("F-type OD = "),_c('strong',[_vm._v(_vm._s(_vm.dims.fOD)+"\"")]),_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.dims.RF_d),expression:"dims.RF_d"}]},[_vm._v("Raised Face OD = "),_c('strong',[_vm._v(_vm._s(_vm.dims.RF_d)+"\"")])])]):_vm._e()])])
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

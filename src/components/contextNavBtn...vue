@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',{staticClass:"context-nav-btn"},[_c('p',{staticClass:"helpText"},[_vm._v(_vm._s(_vm.text))]),(_vm.button.to)?_c('v-btn',{class:_vm.color,attrs:{"fab":"","dark":"","small":_vm.small,"disabled":_vm.disabled,"to":_vm.button.to}},[_c('v-icon',{attrs:{"dark":""}},[_vm._v(_vm._s(_vm.button.icon))])],1):(_vm.button.action)?_c('v-btn',{class:_vm.color,attrs:{"fab":"","dark":"","small":_vm.small,"disabled":_vm.disabled},on:{"click":_vm.push}},[_c('v-icon',{attrs:{"dark":""}},[_vm._v(_vm._s(_vm.button.icon))])],1):_c('v-btn',{class:_vm.color,attrs:{"fab":"","dark":"","small":_vm.small,"disabled":_vm.disabled}},[_c('v-icon',{attrs:{"dark":""}},[_vm._v(_vm._s(_vm.button.icon))])],1)],1)
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

@@ -1,0 +1,6 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',{staticClass:"paste-any"},[_c('h2',[_vm._v("Input")]),_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.rawText),expression:"rawText"}],staticClass:"paste-any-text",attrs:{"outline":"","label":"Manual Entry Field","placeholder":"Type in a part number or Paste quote from old gasket app"},domProps:{"value":(_vm.rawText)},on:{"input":function($event){if($event.target.composing)return;_vm.rawText=$event.target.value}}}),_c('h2',[_vm._v("Results")]),_c('table',{staticClass:"paste-any-table"},[_vm._m(0),_vm._l((_vm.manualEntry),function(line,index){return _c('tr',{key:index},[_c('td',[_vm._v(_vm._s(line.ln || index+1))]),_c('td',[_vm._v(_vm._s(line.pn))]),_c('td',{staticStyle:{"text-align":"right"}},[_vm._v(" "+_vm._s(line.qty)+" ")])])})],2)])
+}
+var staticRenderFns = [function (){var _vm=this,_c=_vm._self._c;return _c('tr',[_c('th',[_vm._v("ln#")]),_c('th',[_vm._v("part number")]),_c('th',[_vm._v("qty")])])
+}]
+
+export { render, staticRenderFns }

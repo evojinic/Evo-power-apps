@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return (_vm.show)?_c('div',{staticClass:"dpCheck"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.localVal),expression:"localVal"}],attrs:{"type":"checkbox","id":_vm.refKey,"disabled":_vm.disabled,"required":_vm.required},domProps:{"value":_vm.refKey,"checked":Array.isArray(_vm.localVal)?_vm._i(_vm.localVal,_vm.refKey)>-1:(_vm.localVal)},on:{"change":function($event){var $$a=_vm.localVal,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=_vm.refKey,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.localVal=$$a.concat([$$v]))}else{$$i>-1&&(_vm.localVal=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.localVal=$$c}}}}),_c('label',{attrs:{"for":_vm.refKey}},[_vm._v(_vm._s(_vm.label)+" "),(_vm.required)?_c('span',{staticStyle:{"color":"red"}},[_vm._v("*")]):_vm._e()])]):_vm._e()
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

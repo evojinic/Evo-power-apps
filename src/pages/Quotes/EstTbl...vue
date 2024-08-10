@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',{staticClass:"EstTbl"},[(_vm.qItems.length === 0)?_c('v-alert',{attrs:{"value":true,"color":"light grey","icon":"warning"}},[_vm._v(" Empty Quote ")]):_c('table',{staticStyle:{"margin":"5px auto"}},[_c('thead',[_c('EstTblHeaders')],1),_c('tbody',[_vm._l((_vm.qItems),function(item,index){return [_c('EstTblRow',_vm._b({key:`est-ln-${index}`,class:{ active: _vm.editIndexArr.indexOf(index) !== -1 },attrs:{"index":index,"canEditQuote":_vm.canEditQuote},on:{"lineClick":function($event){return _vm.selectIndex(index)}}},'EstTblRow',item,false)),(item.fasteners && item.fasteners.state === 'I')?_c('EstTblRow',_vm._b({key:`est-ln-${index}-fasteners`,staticClass:"disabled",attrs:{"index":index,"parentQty":Number(item.qty)}},'EstTblRow',item.fasteners,false)):_vm._e()]})],2)])],1)
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

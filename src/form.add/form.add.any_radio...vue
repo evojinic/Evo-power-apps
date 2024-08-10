@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c;return (_vm.show && !_vm.hidden)?_c('div',[_c('div',{staticClass:"radio-title"},[_vm._v(_vm._s(_vm.label)+" "),(_vm.required)?_c('span',{staticStyle:{"color":"red"}},[_vm._v("*")]):_vm._e()]),_c('div',{staticClass:"radio-list"},[_c('v-text-field',{staticStyle:{"display":"none"},attrs:{"rules":[_vm.required ? (v) => !!v || 'Can not be blank to continue!' : false]},model:{value:(_vm.localVal),callback:function ($$v) {_vm.localVal=$$v},expression:"localVal"}}),_vm._l((_vm.items),function(li){return _c('div',{key:`r-${_vm.refKey}-${_vm.val(li)}`},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.localVal),expression:"localVal"}],attrs:{"type":"radio","name":_vm.refKey,"id":`${_vm.refKey}-${_vm.val(li)}`,"disabled":_vm.disabled,"required":_vm.required},domProps:{"value":_vm.val(li),"checked":_vm._q(_vm.localVal,_vm.val(li))},on:{"change":function($event){_vm.localVal=_vm.val(li)}}}),_c('label',{attrs:{"for":`${_vm.refKey}-${_vm.val(li)}`}},[_vm._v(_vm._s(li.text || li))])])})],2)]):_vm._e()
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }
